@@ -1,5 +1,4 @@
-Le code que vous avez fourni nous permet une recherche asynchrone et récursive de fichier JSON
-contentant le total des ventes à partir d’un dossier ‘stores’. Ces fichiers peuvent être trouvés dans
+Le code permet une recherche asynchrone et récursive de fichier JSON contentant le total des ventes à partir d’un dossier ‘stores’. Ces fichiers peuvent être trouvés dans
 d’autres dossiers grâce a la partie récursive de findFiles(). Ensuite les adresses des fichiers JSON sont
 push dans un tableau. On calcule ensuite le grand total en concaténant les objets ‘’ total ‘’ de chaque
 JSON présent dans ce tableau.
