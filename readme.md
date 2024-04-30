@@ -13,3 +13,4 @@ Pour l’utiliser sous esm j’ai remplacé les require par des imports et pass�
 
 Le seul problème encouru est que l’accès au dossier courant grâce à __dirname n’est pas possible
 sous esm sans importer une partie du module ‘url’ et en redéfinissant nous même __dirname.
+(on peut aussi juste utiliser l'url)
